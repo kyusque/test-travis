@@ -1,0 +1,7 @@
+addons:
+  apt:
+    packages:
+    - gfortran
+script: 
+  - gfortran test.f90  && ./a.out
+  
